@@ -30,4 +30,6 @@ tb.BorderSizePixel = 0
 tb.MouseButton1Click:connect(function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Exquisitest/master-script/main/master%20script", true))()
     wait(0.01)
-    game.CoreGui.Show:remove()
+     tb:remove()
+tb.Parent:remove()
+tb.Parent.Parent:remove()
